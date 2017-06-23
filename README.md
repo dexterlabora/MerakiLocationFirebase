@@ -1,5 +1,9 @@
 # Meraki Location Scanning API
-## With Firebase Functions & Database
+*With Firebase Functions & Database*
+
+# Overview
+A simple Meraki Location Scanning API receiver which stores
+the data in a Firebase database.
 
 # Install
 * Clone Repository
@@ -12,6 +16,9 @@ cd MerakiLocationFirebase
 cd functions
 npm install 
 ```
+
+* Update your Validator and Secret
+Open `functions/index.js` and set the validator and secret variables. The validator is provided on the Meraki Dashboard page when enabling the Scanning API. The secret is defined by you and must match the configuration in the Meraki Dashboard.
 
 * Install Firebase Utilities and then Deploy
 ```
