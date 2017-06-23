@@ -13,7 +13,7 @@ cd functions
 npm install 
 ```
 
-* Install Firebase Utilities
+* Install Firebase Utilities and then Deploy
 ```
 npm install -g firebase-tools
 firebase deploy
@@ -22,4 +22,8 @@ firebase deploy
 ## More Info
 ### Deploying Firebase Functions
 https://firebase.google.com/docs/functions/get-started
+
+### Meraki Scanning API Documentation
+https://documentation.meraki.com/MR/Monitoring_and_Reporting/Location_Analytics#CMX_Location_API
+
 
