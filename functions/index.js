@@ -1,6 +1,6 @@
 const functions = require('firebase-functions');
 const firebase = require('firebase');
-const validator = "8e0846499d9a3f6c23f7868c4c25b9d6325035f5" // Your Validator provide by Meraki
+const validator = "123412412341234123412341234234" // Your Validator provided by Meraki
 const secret = "YourSecret"; // Your self defined secret
 
 const appConfig = functions.config().firebase;
