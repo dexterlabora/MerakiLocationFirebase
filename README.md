@@ -23,8 +23,25 @@ Open `functions/index.js` and set the validator and secret variables. The valida
 * Install Firebase Utilities and then Deploy
 ```
 npm install -g firebase-tools
+```
+
+* Update the `functions/index.js` file with your validator and secret 
+```
+nano index.js
+~~~~~~~~~~
+const functions = require('firebase-functions');
+const firebase = require('firebase');
+const validator = "8e0846499d9a3f6c23f7868c4c25b9d6325035f5" // Your Validator provide by Meraki
+const secret = "YourSecret"; // Your self defined secret
+~~~~~~~~~~
+```
+
+* Deploy the app to Google Firebase
+```
 firebase deploy
 ```
+
+
 
 ## More Info
 ### Deploying Firebase Functions
